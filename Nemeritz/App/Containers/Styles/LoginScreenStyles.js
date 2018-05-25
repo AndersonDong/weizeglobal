@@ -48,5 +48,21 @@ export default StyleSheet.create({
   topLogo: {
     alignSelf: 'center',
     resizeMode: 'contain'
+  },
+  socialButtonsBox: {
+    paddingTop: 30,
+    paddingHorizontal: Metrics.doubleBaseMargin
+  },
+  socialButtons: {
+    margin: -20,
+    alignSelf: 'center',
+    resizeMode: 'center',
+    flex: 1
+  },
+  socialButtonTouchable: {
+    borderRadius: 4,
+    borderWidth: 0.5,
+    borderColor: '#555555',
+    flex: 1
   }
 })

@@ -4,7 +4,7 @@ import DebugConfig from '../../App/Config/DebugConfig'
 import LoginButton from '../../App/Containers/LoginButton'
 import PresentationScreen from '../../ignite/DevScreens/PresentationScreen'
 
-export default class DevscreensButton extends React.Component {
+export default class LoginScreenSignInButton extends React.Component {
   constructor (props) {
     super(props)
     this.state = {

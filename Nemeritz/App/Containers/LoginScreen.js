@@ -15,6 +15,7 @@ import {Images, Metrics} from '../Themes'
 import ThemeScreen from '../../ignite/DevScreens/ThemeScreen'
 import LoginScreenSignInButton from '../../App/Containers/LoginScreenSignInButton.js'
 import LoginScreenCancelButton from '../../App/Containers/LoginScreenCancelButton.js'
+import FacebookButton from './FacebookButton.js'
 import LoginActions from '../Redux/LoginRedux'
 
 class LoginScreen extends React.Component {
@@ -154,7 +155,14 @@ class LoginScreen extends React.Component {
             </TouchableOpacity>
           </View>
         </View>
-
+	<View style={styles.socialButtonsBox}>
+	  <TouchableOpacity style={styles.socialButtonTouchable} onPress={() => alert('F. Havnt understood navigation stack yet xD')}>
+	    <Image source={Images.facebook} style={styles.socialButtons} resizeMode='center' />
+          </TouchableOpacity>
+	  <TouchableOpacity style={styles.socialButtonTouchable} onPress={() => alert('G. Havnt understood navigation stack yet xD')}>
+	    <Image source={Images.google} style={styles.socialButtons} resizeMode='center' />
+          </TouchableOpacity>
+        </View>
       </ScrollView>
     )
   }

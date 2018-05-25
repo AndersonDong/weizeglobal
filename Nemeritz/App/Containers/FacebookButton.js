@@ -1,10 +1,10 @@
 import React from 'react'
 import { View, Modal } from 'react-native'
 import DebugConfig from '../../App/Config/DebugConfig'
-import LoginButton from '../../App/Containers/LoginButton'
-import LaunchScreen from '../../App/Containers/LaunchScreen'
+import SocialButton from '../../App/Components/SocialButton'
+import SignUpScreen from '../../App/Containers/SignUpScreen'
 
-export default class LoginScreenCancelButton extends React.Component {
+export default class FacebookButton extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
@@ -20,13 +20,12 @@ export default class LoginScreenCancelButton extends React.Component {
     if (DebugConfig.showDevScreens) {
       return (
         <View>
-          <LoginButton onPress={this.toggleModal}>
-            Cancel
-          </LoginButton>
+          <SocialButton onPress={this.toggleModal}>
+          </SocialButton>
           <Modal
             visible={this.state.showModal}
             onRequestClose={this.toggleModal}>
-            <LaunchScreen screenProps={{ toggle: this.toggleModal }} />
+            <SignUpScreen screenProps={{ toggle: this.toggleModal }} />
           </Modal>
         </View>
       )

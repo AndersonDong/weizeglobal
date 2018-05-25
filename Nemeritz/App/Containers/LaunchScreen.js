@@ -1,11 +1,9 @@
 import React from 'react'
 import { ScrollView, Text, Image, View } from 'react-native'
-import DevscreensButton from '../../ignite/DevScreens/DevscreensButton.js'
-import LaunchScreenButton from '../../ignite/DevScreens/LaunchScreenButton.js'
-import LaunchScreenButtonSignUp from '../../ignite/DevScreens/LaunchScreenButtonSignUp.js'
+import LaunchScreenButton from './LaunchScreenButton.js'
+import LaunchScreenButtonSignUp from './LaunchScreenButtonSignUp.js'
 import { StackNavigator } from 'react-navigation'
 import LoginScreen from '../../App/Containers/LoginScreen.js'
-import RoundedButton from '../../App/Components/RoundedButton'
 import ThemeScreen from '../../ignite/DevScreens/ThemeScreen'
 
 import { Images } from '../Themes'

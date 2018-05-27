@@ -26,7 +26,7 @@ export default class DevscreensButton extends React.Component {
           <Modal
             visible={this.state.showModal}
             onRequestClose={this.toggleModal}>
-            <SignUpScreen screenProps={{ toggle: this.toggleModal }} />
+            //<SignUpScreen screenProps={{ toggle: this.toggleModal }} />
           </Modal>
         </View>
       )

@@ -55,9 +55,7 @@ export default StyleSheet.create({
   },
   socialButtons: {
     margin: -20,
-    alignSelf: 'center',
-    resizeMode: 'center',
-    flex: 1
+    alignSelf: 'center'
   },
   socialButtonTouchable: {
     borderRadius: 4,

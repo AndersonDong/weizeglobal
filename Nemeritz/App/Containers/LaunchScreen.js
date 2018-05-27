@@ -34,7 +34,7 @@ export default class LaunchScreen extends React.Component {
             </Text>
           </View>
           <LaunchScreenButton>
-            Login
+            L
           </LaunchScreenButton>
           <LaunchScreenButtonSignUp>
             SignUp
